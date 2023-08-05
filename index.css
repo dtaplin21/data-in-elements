@@ -6,4 +6,10 @@ li {
     border-radius: 25px;
 }
 
-/* Your code here */
+li[data-type="drinks"] {
+    background-color: rgb(255, 186, 58);
+}
+
+li[data-type="dairy"] {
+    background-color: brown
+}
