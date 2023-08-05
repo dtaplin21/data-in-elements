@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     buttom.addEventListener("click", (e) => {
         e.preventDefault();
 
+
         const input = document.getElementById("name").value;
         const select = document.getElementById("type").value;
 
@@ -13,7 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
        li.innerText = input.value;
 
        const ul = document.getElementById("Shopping-list");
+             ul.appendChild(li);
+
+             input.value = "";
 
 
     });
+
 })
