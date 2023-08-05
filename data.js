@@ -5,10 +5,15 @@ document.addEventListener("DOMContentLoaded", () => {
     buttom.addEventListener("click", (e) => {
         e.preventDefault();
 
-        const input = document.getElementById("name");
-        const select = document.getElementById("type");
+        const input = document.getElementById("name").value;
+        const select = document.getElementById("type").value;
 
-        console.log(input.value);
-        console.log(select.value)
+       const li = document.createElement("li");
+       li.setAttribute("data-type", select.value);
+       li.innerText = input.value;
+
+       const ul = document.getElementById("Shopping-list");
+
+
     });
 })
