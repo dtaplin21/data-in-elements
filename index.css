@@ -13,3 +13,24 @@ li[data-type="drinks"] {
 li[data-type="dairy"] {
     background-color: brown
 }
+
+
+li[data-type="frozen"] {
+  background-color: yellow
+}
+
+li[data-type="bakery"] {
+  background-color: Green
+}
+
+li[data-type="canned"] {
+  background-color: grey
+}
+
+li[data-type="meats"] {
+  background-color: red
+}
+
+li[data-type="produce"] {
+  background-color: rgb(42, 42, 255)
+}

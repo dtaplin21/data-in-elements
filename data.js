@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const button = document.getElementById("add");
 
-    buttom.addEventListener("click", (e) => {
+    button.addEventListener("click", (e) => {
         e.preventDefault();
 
 
